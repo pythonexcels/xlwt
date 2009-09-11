@@ -10,9 +10,9 @@ def doxl():
        names and mark cells with no account number as 99999 with red fill
        '''
     try:
-        fp = open("hspdata.txt")
+        fp = open("hospdata.txt")
     except:
-        print 'Failed to open hspdata.txt'
+        print 'Failed to open hospdata.txt'
         sys.exit(1)
     lines = fp.readlines()
 
