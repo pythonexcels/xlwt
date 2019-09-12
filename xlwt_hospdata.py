@@ -12,7 +12,7 @@ def doxl():
     try:
         fp = open("hospdata.txt")
     except:
-        print 'Failed to open hospdata.txt'
+        print ('Failed to open hospdata.txt')
         sys.exit(1)
     lines = fp.readlines()
 
@@ -25,7 +25,7 @@ def doxl():
     ws.col(0).width = len('Account Number') * 256
     ws.col(1).width = max([len(l) for l in lines]) * 256
     r = 1
-    
+
     for line in lines:
         wsraw.write(r,0,line.strip())
         m = nameandnum.match(line)
@@ -37,7 +37,7 @@ def doxl():
             ws.write(r,1,' '.join([w.capitalize() for w in line.split()]))
         r += 1
     wb.save('accounts.xls')
-    print 'Wrote accounts.xls'
+    print ('Wrote accounts.xls')
 
 if __name__ == "__main__":
     doxl()
