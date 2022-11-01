@@ -4,7 +4,7 @@ This repository contains examples of Python scripts that generate Excel spreadsh
 
 ## xlwt_hospdata.py
 
-This script reads some raw text containing account information for hospital, parses the account number and account name information, then writes the result to an excel spreadsheet using the [XLWT][python-excel] module. A complete description of this script can be found at [pythonexcels.com](https://pythonexcels.com/python/2009/09/19/another-xlwt-example).
+This script reads some raw text containing account information for hospital, parses the account number and account name information, then writes the result to an excel spreadsheet using the [XLWT][python-excel] module. A complete description of this script can be found at [pythonexcels.com](https://pythonexcels.com/python/2009/09/10/using-xlwt-to-write-spreadsheets-without-excel).
 
 ## xlwt_bostonhousing.py
 
@@ -17,7 +17,7 @@ Volume 5, (1978). The data is read, parsed and written to a spreadsheet using
 the XLWT module. a reads some raw text containing account information for
 hospital, parses the account number and account name information, then writes
 the result to an excel spreadsheet using the [XLWT][python-excel] module. A
-complete description of this script can be found at http://pythonexcels.github.io/2009_09_19_Another_XLWT_Example.html .
+complete description of this script can be found at [pythonexcels.com](https://pythonexcels.com/python/2009/09/19/another-xlwt-example).
 
 ## boston_corrected.txt
 
